@@ -11,14 +11,10 @@ image:
 ---
 
 <div class="wrap">
-	<label for="class-name">样式名：</label>
-	<input type="text" value="" id="class-name"  />
-	<label for="color_value">需要透明的颜色十六进制值：#</label>
-	<input type="text" value="" id="color_value" maxlength="6" />
-	<label for="original">透明度：</label>
-	<input type="input" id="original" />
+	<div><label for="class-name">样式名：</label><input type="text" value="" id="class-name"  /></div>
+	<div><label for="color_value">需要透明的颜色十六进制值：#</label><input type="text" value="" id="color_value" maxlength="6" /></div>
+	<div><label for="original">透明度：</label><input type="input" id="original" /></div>
 	<button type="button" onclick="change_10_to_16()" class="btn btn-success">转为16进制的颜色</button>
-	<!-- <div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div> -->
 	<br />
 	<div id="alpha_style"></div>
 </div>
@@ -110,9 +106,3 @@ image:
       }
   }
 </script>
-
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
