@@ -14,12 +14,12 @@ owner:
   bio:            "Shenzhen China."
   email:          smallenn@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        https://twitter.com/shauning
-  facebook:       https://www.facebook.com/smallen.huang
-  github:         https://github.com/shauning
+  twitter:        shauning
+  facebook:       smallen.huang
+  github:         shauning
   stackexchange:  
   linkedin:       
-  instagram:      http://instagram.com/shauning/
+  instagram:      shauning
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
