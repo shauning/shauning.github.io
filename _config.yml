@@ -1,5 +1,5 @@
-title:            Site Title
-description:      Describe your website here.
+title:            Shaun
+description:      Photography and work.
 disqus_shortname: hpstrtheme
 reading_time:     true
 words_per_minute: 200
@@ -9,22 +9,22 @@ url:
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Shauning
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  bio:            "Shenzhen China."
+  email:          smallenn@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
+  twitter:        https://twitter.com/shauning
+  facebook:       https://www.facebook.com/smallen.huang
+  github:         https://github.com/shauning
   stackexchange:  
   linkedin:       
-  instagram:      
+  instagram:      http://instagram.com/shauning/
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    
 
 # Background image to be tiled on all pages
 background: 
@@ -36,7 +36,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Chongqing
 future:      true
 highlighter: pygments
 markdown:    kramdown
