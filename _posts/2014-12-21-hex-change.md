@@ -11,6 +11,7 @@ image:
 ---
 
 <div class="wrap">
+  <p>from: <a href="http://www.linxz.de/">林小志</a></p>
 	<div><label for="class-name">样式名：</label><input type="text" value="" id="class-name"  /></div>
 	<br/>
 	<div><label for="color_value">颜色值：#</label><input type="text" value="" id="color_value" maxlength="6" /></div>
