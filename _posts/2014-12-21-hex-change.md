@@ -12,8 +12,11 @@ image:
 
 <div class="wrap">
 	<div><label for="class-name">样式名：</label><input type="text" value="" id="class-name"  /></div>
-	<div><label for="color_value">需要透明的颜色十六进制值：#</label><input type="text" value="" id="color_value" maxlength="6" /></div>
-	<div><label for="original">透明度：</label><input type="input" id="original" /></div>
+	<br/>
+	<div><label for="color_value">颜色值：#</label><input type="text" value="" id="color_value" maxlength="6" /></div>
+	<br/>
+	<div><label for="original">透明度 0~1：</label><input type="input" id="original" /></div>
+	<br/>
 	<button type="button" onclick="change_10_to_16()" class="btn btn-success">转为16进制的颜色</button>
 	<br />
 	<div id="alpha_style"></div>
