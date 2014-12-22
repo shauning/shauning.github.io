@@ -6,8 +6,8 @@ modified: 2014-12-21
 tags: [tools]
 image:
   feature: abstract-3.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  credit: Shaun
+  creditlink: http://huaban.com/pins/218361515/
 ---
 
 <div class="wrap">
