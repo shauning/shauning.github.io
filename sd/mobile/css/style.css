@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* @author ------- weibo.com/shauning
+ * @design ------- vinha
+ * @time   ------- 2015-01-04*/
+/*reset*/
+html {overflow-y: scroll}
+html, body {font:12px/1.5 "Helvetica Neue", Helvetica, STHeiTi, sans-serif; color:#666; -webkit-tap-highlight-color:rgba(0,0,0,0);}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:500; }
+ol,ul { list-style:none; }
+table { border-collapse:collapse; border-spacing:0; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%; color: #000; font-weight:500; }
+abbr,acronym { border:0; }
+del{text-decoration:line-through}
+input, select, textarea{font-size:100%; -webkit-appearance:none;}
+textarea{resize:none;}
+q:before,q:after{content:''}
+ins,a{ color: #333; text-decoration:none;}
+a:hover{text-decoration:underline}
+
+.header {height: 46px; border-bottom: solid #379be9 2px;}
+.logo {float: left; width: 160px;}
+.logo a {display: block; height: 46px; background: url(../images/logo_main.png) no-repeat center center; text-indent: -9999px;background-size: 130px 40px;}
+.sitenav {background: #0073c6; padding: 7px 0; overflow: hidden;}
+.sitenav li {float: left; width: 20%; font-size: 1.333rem; line-height: 30px; text-align: center;}
+.sitenav a {color: #fff;}
+.tigger:after {position: absolute; display: inline-block; content: ""; width: 0; height: 0; line-height: 0; margin-top: 12px; font-size: 0; color: #0073c6; border-style: solid; border-color: #fff #0073c6 #0073c6 #0073c6; border-width: 5px;}
+.tiggerup {display: none;}
+.tiggerup:after {margin-top: 7px; border-color: #0073c6 #0073c6 #fff #0073c6; }
+.tigger_on .tigger {display: none;}
+.tigger_on .tiggerup {display: inline-block;}
+.channel {float: right; display: block; width: 22px; height: 16px; background: url(../images/icon.png) no-repeat; background-size: 119px 21px; margin: 15px 15px 0 0;}
+
+.newslist_div {padding:10px 5px 10px 0;border-bottom:dotted #e8e8e8 1px;}
+.newslist_div .pic {position:relative;float:left;display:inline;width:93px;height:52px;margin-right:10px;}
+.newslist_div img {width: 93px; height: 52px;}
+.newslist_div h3 {max-height:38px;font-size:1.33rem; line-height: 1.2; font-weight:bold;overflow:hidden;}
+.newslist_div p {height:38px;margin:3px 0 8px;color:#666;overflow:hidden;}
+.newslist_info_from {color: #999;}
+
+h1 {font-size: 2rem; font-weight: bold;}
+.wrapper {padding:10px;}
+.artinfo {margin: 1em 0 2em}
+.artbox_img {text-align: center;}
+.artbox_img img {width:100%;height:100%;}
+.artbox p {margin-bottom: 22px; font-size: 1.33rem; color: #333; text-indent: 2em;}
+.statement {color: #666; text-align: center;}
+
+.title_h3 {margin-top: 20px; padding-top: 10px; font-size: 1.33rem; border-top: solid #379be9 3px;}
+.imgLlist li {height:75px;margin:15px 0 0 0;border-bottom:solid #e7e7e7 1px;overflow:hidden;}
+.imgLlist .pic {float:left;display:block;width:107px;height:60px;margin-right:10px;}
+.imgLlist img {width:107px;height:60px;}
+.imgLlist p {color: #999;}
+.imgLlist .title {height:40px;margin-bottom:3px;font-size:14px;overflow:hidden;}
+.imgLlist_150x85 li {width:auto;height:85px;border-bottom:none;}
+.imgLlist_150x85 .pic, .imgLlist_150x85 img {width:150px;height:85px;}
+.imgLlist_150x85 .title {height:20px;}
+.imgLlist_150x85 p {height:40px;overflow:hidden;}
+
+.imglist {overflow:hidden;}
+.imglist li {float:left;overflow:hidden;}
+.imglist_205x113 li {width:100px;height:55px;margin:10px 4% 0 0;}
+.imglist_205x113 img {width:100px;height:55px;}

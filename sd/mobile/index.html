@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<!-- 
+<meta name="apple-mobile-web-app-title" content="标题">
+<link rel="apple-touch-icon" href="#" />
+<link rel="apple-touch-icon" sizes="72x72" href="#" />
+<link rel="apple-touch-icon" sizes="114x114" href="#" /> 57 72 114 桌面图标
+-->
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>index</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="header">
+	<h1 class="logo"><a href="看看城市">看看城市</a></h1>
+</div>
+<div class="sitenav">
+	<ul>
+		<li><a href="http://cq.kankancity.com/" class="cur">首页</a></li>
+		<li><a href="/category/city/">城事</a></li>
+		<li><a href="/category/yule/">娱乐</a></li>
+		<li><a href="/category/sports/">体育</a></li>
+		<li><a href="/category/car/">汽车</a></li>
+		<li><a href="/category/travel/">旅游</a></li>
+		<li><a href="/category/cate/">美食</a></li>
+		<li><a href="/category/house/">房产</a></li>
+		<li><a href="/category/finance/">财经</a></li>
+		<li id="tigger" onclick="navShow();"><a href="#" class="tigger">更多</a><a href="#" class="tigger tiggerup">收起</a></li>
+	</ul>
+	<ul id="navmore" class="navmore" style="display:none;">
+		<li><a href="/category/tech/">科技</a></li>
+		<li><a href="/category/war/">军事</a></li>
+		<li><a href="http://bbs.cq.kankancity.com/">社区</a></li>
+		<li><a href="http://gyt.kankancity.com/cq">观影团</a></li>
+	</ul>                                                                                            
+</div>
+
+<section class="wrapper">
+	<div class="newslist">
+		<div class="newslist_div">
+			<a href="#" title="" class="pic"><img src="http://placehold.it/93x52" alt="文字"></a>
+			<h3><a href="#" title="">审判高官二十年：超90%高官腐败案异地审理</a></h3>	
+			<span class="newslist_info_from">青春娱乐网  20分钟前</span>
+		</div>
+		<div class="newslist_div">
+			<a href="#" title="" class="pic"><img src="http://placehold.it/93x52" alt="文字"></a>
+			<h3><a href="#" title="">审判高官二十年：超90%高官腐败案异地审理</a></h3>	
+			<span class="newslist_info_from">青春娱乐网  20分钟前</span>
+		</div>
+		<div class="newslist_div">
+			<a href="#" title="" class="pic"><img src="http://placehold.it/93x52" alt="文字"></a>
+			<h3><a href="#" title="">审判高官二十年：超90%高官腐败案异地审理</a></h3>	
+			<span class="newslist_info_from">青春娱乐网  20分钟前</span>
+		</div>
+		<div class="newslist_div">
+			<h3><a href="#" title="">审判高官二十年：超90%高官腐败案异地审理</a></h3>	
+			<span class="newslist_info_from">青春娱乐网  20分钟前</span>
+			<ul class="imglist imglist_205x113">
+				<li><a href="#" title=""><img src="http://placehold.it/100x55" alt="文字"></a></li>
+				<li><a href="#" title=""><img src="http://placehold.it/100x55" alt="文字"></a></li>
+				<li><a href="#" title=""><img src="http://placehold.it/100x55" alt="文字"></a></li>
+			</ul>
+		</div>
+		<div class="newslist_div">
+			<h3><a href="#" title="">审判高官二十年：超90%高官腐败案异地审理</a></h3>	
+			<span class="newslist_info_from">青春娱乐网  20分钟前</span>
+		</div>
+		<div class="newslist_div">
+			<h3><a href="#" title="">审判高官二十年：超90%高官腐败案异地审理</a></h3>	
+			<span class="newslist_info_from">青春娱乐网  20分钟前</span>
+		</div>
+	</div>
+</section>
+</body>
+<script type="text/javascript">
+var tigger = document.getElementById('tigger');
+var navmore = document.getElementById('navmore');
+function navShow () {
+	// alert('111');
+	if (navmore.style.display == 'none') {
+		tigger.className = 'tigger_on';
+		navmore.style.display = 'block';
+	}else{
+		tigger.className = '';
+		navmore.style.display = 'none'
+	};
+}
+</script>
+</html>
